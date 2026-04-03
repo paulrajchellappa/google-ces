@@ -1,7 +1,7 @@
 import os
 
-PROJECT_ID = os.getenv("GCP_PROJECT_ID", "ges-poc-490514")
-BUCKET_NAME = os.getenv("GCS_BUCKET_NAME", "ges-poc-capgemini-001")
+PROJECT_ID = os.getenv("GCP_PROJECT_ID", "ges-poc-90567")
+BUCKET_NAME = os.getenv("GCS_BUCKET_NAME", "ges-poc-cg-001")
 BQ_DATASET = os.getenv("BQ_DATASET", "ges_demo")
 AGENT_TABLE = os.getenv("BQ_AGENT_TABLE", "call_transcripts_agent")
 ANALYTICS_TABLE = os.getenv("BQ_ANALYTICS_TABLE", "call_transcripts_analytics")
