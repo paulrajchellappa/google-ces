@@ -4,6 +4,8 @@ A modular Python application that integrates Google Cloud services for audio tra
 
 ## 📋 Table of Contents
 
+<img width="1148" height="612" alt="Screenshot 2026-04-09 at 11 22 10 PM" src="https://github.com/user-attachments/assets/da0ab599-5c39-4aaa-a42d-9a36e2804a2c" />
+
 - [Project Overview](#project-overview)
 - [Features](#features)
 - [Architecture](#architecture)
