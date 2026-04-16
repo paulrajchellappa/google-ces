@@ -1,0 +1,35 @@
+site_name: ges sample app
+site_url: https://github.com/paulrajchellappa/google-ces
+use_directory_urls: false  # This makes links more reliable for GitHub Pages
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: black
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - content.code.copy
+    - search.suggest
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+nav:
+  - Overview: index.md
+  - Architecture: architecture.md
+  - Deployment: deployment.md
+  - Version History: history.md
+  - Troubleshooting: troubleshooting.md
