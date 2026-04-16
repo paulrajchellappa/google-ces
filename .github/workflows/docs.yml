@@ -2,7 +2,7 @@ name: AI Documentation Engine
 
 on:
   push:
-    branches: [ feature/ai-docs ]
+    branches: [ main/ai-docs ]
 
 permissions:
   contents: read
