@@ -3,7 +3,7 @@ import re
 import subprocess
 from google import genai
 
-MODEL_NAME = os.getenv("CLAUDE_MODEL", "claude-3.5-sonnet")
+MODEL_NAME = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
 
 
 def get_client():
